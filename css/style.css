@@ -154,24 +154,19 @@ footer h2 {
     }
 
     nav ul {
-        list-style: none;
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
     }
 
     nav li {
-        width: 100%;
+        width: 90%;
         max-width: 300px;
     }
 
     nav a {
         width: 100%;
-        height: 50px;
     }
     #ejemplos {
-    grid-template-columns: 1fr;
+        grid-template-columns: 1fr;
+    }
 }
-}
-
-
