@@ -18,25 +18,12 @@ function cambiarSlide() {
 setInterval(cambiarSlide, 5000);
 
 
-//animacion
-const secciones = document.querySelectorAll(".seccion");
+//boton Nav
+const btnNav = document.getElementById("btnNav");
+const menu = document.getElementById("navMenu");
 
-const observer = new IntersectionObserver((entries) => {
+btnNav.addEventListener("click", () => {
 
-    entries.forEach(entry => {
+    menu.classList.toggle("activo");
 
-        if (entry.isIntersecting) {
-            entry.target.classList.add("visible");
-        } else {
-            entry.target.classList.remove("visible");
-        }
-
-    });
-
-}, {
-    threshold: 0.05
-});
-
-secciones.forEach(seccion => {
-    observer.observe(seccion);
 });
