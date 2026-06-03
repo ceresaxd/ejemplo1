@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -36,6 +36,7 @@ nav ul {
     justify-content: center;
     gap: 0;
 }
+
 nav li {
     width: 180px;
 
@@ -46,8 +47,8 @@ nav a {
     justify-content: center;
     align-items: center;
 
-    width: 160px;      
-    height: 60px;      
+    width: 160px;
+    height: 60px;
 
     text-decoration: none;
     color: #000000;
@@ -144,12 +145,28 @@ footer h2 {
     margin-bottom: 1rem;
 }
 
+
 @media (max-width: 700px) {
-    header{
-        position: relative;
+    header {
+        padding: 1rem;
     }
+
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        width: 100%;
+        max-width: 300px;
+        height: 50px;
+    }
+
     #ejemplos {
         grid-template-columns: 1fr;
     }
-
 }
