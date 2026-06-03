@@ -19,6 +19,7 @@ setInterval(cambiarSlide, 5000);
 
 
 //boton Nav
+const a = 0;
 const btnNav = document.getElementById("btnNav");
 const menu = document.getElementById("navMenu");
 
