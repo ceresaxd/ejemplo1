@@ -102,9 +102,9 @@ nav a:hover {
 #ejemplos {
     padding: 4rem 2rem;
     display: grid;
-    grid-template-columns: repeat(3, 450px);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
     justify-content: center;
-    gap: 2rem;
+    gap: 1.5rem;
 }
 
 #ejemplos h2 {
