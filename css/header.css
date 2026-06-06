@@ -6,22 +6,22 @@ header {
     left: 0;
     width: 100%;
     z-index: 1000;
-    background: rgba(27, 45, 2, 0.8); 
+    background: rgba(255, 255, 255, 0.8); 
     transition: 0.3s;
     opacity: 1;
 }
 
 header.hero-color {
-    background: rgb(27, 45, 2); 
+    background: rgb(255, 255, 255); 
     nav{
-        background: rgb(27, 45, 2);
+        background: rgb(255, 255, 255);
         
     }
 }
 
 header h1 {
     text-align: center;
-    color: #ffffff;
+    color: #000000;
     margin-top: 10px;
     margin-bottom: 1rem;
 }
@@ -90,7 +90,7 @@ nav a:hover {
         display: grid;
         align-items: center;
         grid-template-columns: 50px 1fr 50px;
-        background: rgba(27, 45, 2, 0.8); 
+        background: rgba(255, 255, 255, 0.8); 
     }
     
     
@@ -117,7 +117,7 @@ nav a:hover {
         top: 100%;
         left: 0;
         width: 100%;
-        background: rgba(27, 45, 2, 0.8); 
+        background: rgba(255, 255, 255, 0.8); 
     }
 
     nav.activo {
