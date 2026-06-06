@@ -15,7 +15,7 @@ header.hero-color {
     background: rgb(27, 45, 2); 
     nav{
         background: rgb(27, 45, 2);
-        transition: 0.3s;
+        
     }
 }
 
@@ -33,6 +33,9 @@ header nav ul h1 {
 }
 .titulo {
     display: none;
+}
+nav{
+    transition: 0.3s;
 }
 #btnNav {
     display: none;
