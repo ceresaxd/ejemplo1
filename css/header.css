@@ -90,7 +90,7 @@ nav a:hover {
         display: grid;
         align-items: center;
         grid-template-columns: 50px 1fr 50px;
-        background: rgba(58, 26, 16, 0.8); 
+        background: rgba(37, 9, 2, 0.4); 
     }
     
     
