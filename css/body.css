@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -5,14 +6,15 @@
     -webkit-tap-highlight-color: transparent;
 }
 
-html{
+html {
     scroll-behavior: smooth;
     overscroll-behavior: none;
 }
+
 /*body*/
 body {
-    background-color: #e9e1e1;
-    color: #000000;
+    background: rgb(58, 26, 16);
+    color: #F5EFE6;
     overflow-x: hidden;
 }
 
@@ -26,20 +28,21 @@ body {
     height: 100vh;
 }
 
-.home img{
+.home img {
     position: absolute;
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
+
 .texto {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 10;
-
-    color: rgb(255, 255, 255);
+    font-family: 'GreatVibes';
+    color: #F5EFE6;
     font-size: 3rem;
     text-align: center;
     width: 80%;
@@ -47,59 +50,157 @@ body {
 
 
 /* hero */
-
 .hero {
     text-align: center;
-    padding: 4rem 2rem;
-    background-color: white;
+    border-top: 1px solid #F5EFE6;
+    border-bottom: 1px solid#F5EFE6;
+    color: #F5EFE6;
+    font-family: 'DancingScript';
+}
+
+.hero h1 {
+    padding-top: 5%;
+    font-size: 30px;
+    font-family: none;
 }
 
 .hero h2 {
-    color: #000000;
-    margin-bottom: 1rem;
-}
-
-/* ejemplos */
-
-#ejemplos {
-    padding: 4rem 2rem;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
-    justify-content: center;
-    gap: 1.5rem;
-}
-
-#ejemplos h2 {
-    grid-column: 1 / -1;
+    padding-top: 3%;
+    font-size: 20px;
+    font-weight: normal;
     text-align: center;
-}
-
-#ejemplos article {
-    background-color: white;
-    border-radius: 10px;
-    overflow: hidden;
+    max-width: 900px;
     margin: 0 auto;
-    padding: 5px;
+
 }
 
-#ejemplos img {
+.hero-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 1rem;
+    padding: 5% 2rem 10rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    background: rgb(58, 26, 16);
     width: 100%;
-    display: block;
-    border-radius: 10px;
+    box-sizing: border-box;
 }
 
-#ejemplos h3 {
-    text-align: center;
-    padding: 1rem;
+.hero-col-left {
+    grid-column: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: flex-end;
+    height: 100%;
+    min-width: 0; 
 }
 
+.hero-col-center {
+    grid-column: 2;
+    min-width: 0; 
+}
+
+.hero-col-right {
+    grid-column: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    min-width: 0; 
+}
+
+.hero img {
+    width: 100%;
+    object-fit: cover;
+    display: block; 
+}
+
+.hero-col-left img {
+    height: 320px;
+    width: 100%;
+}
+
+.hero-col-center img {
+    height: 426px;
+    width: 100%;
+}
+
+.hero-col-right img {
+    height: 320px;
+    width: 100%;
+}
+
+.hero p {
+    font-size: 14px;
+    line-height: 1.7;
+    text-align: justify;
+    margin: 0;
+    font-family: none;
+}
+
+.hero h3 {
+    text-decoration: none;
+    font-size: 16px;
+    grid-column: 3;
+    padding-top: 2%;
+    text-align: right;
+    font-weight: normal;
+    font-family: none;
+}
+.hero h3 a {
+  color: inherit;        
+  text-decoration: none; 
+}
 @media (max-width: 700px) {
-    
-    html{
+
+    html {
         overscroll-behavior: auto;
     }
-    #ejemplos {
+
+    .hero-grid {
         grid-template-columns: 1fr;
+        padding: 1rem;
+        overflow: hidden;
+    }
+
+    .hero-col-left {
+        padding-top: 10%;
+        grid-column: 1;
+        grid-row: auto;
+    }
+
+    .hero-col-center {
+        grid-column: 1;
+        grid-row: auto;
+    }
+
+    .hero-col-right {
+        grid-column: 1;
+        grid-row: auto;
+    }
+
+    .hero h3 {
+        grid-column: 1;
+        grid-row: auto;
+        text-align: right;
+    }
+
+    .hero-col-left img,
+    .hero-col-center img,
+    .hero-col-right img {
+        height: 320px;
+        width: 100%;
     }
 }
+@font-face {
+    font-family: 'GreatVibes';
+    src: url(/resources/fonts/GreatVibes-Regular.ttf);
 
+    
+}
+@font-face {
+    font-family: 'DancingScript';
+    src: url(/resources/fonts/DancingScript-VariableFont_wght.ttf);
+}

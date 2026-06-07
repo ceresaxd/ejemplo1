@@ -6,22 +6,22 @@ header {
     left: 0;
     width: 100%;
     z-index: 1000;
-    background: rgba(255, 255, 255, 0.8); 
+    background: rgba(58, 26, 16, 0.8); 
     transition: 0.3s;
     opacity: 1;
 }
 
 header.hero-color {
-    background: rgb(255, 255, 255); 
+    background: rgb(58, 26, 16); 
     nav{
-        background: rgb(255, 255, 255);
+        background: rgb(58, 26, 16);
         
     }
 }
 
 header h1 {
     text-align: center;
-    color: #000000;
+    color: #F5EFE6;
     margin-top: 10px;
     margin-bottom: 1rem;
 }
@@ -71,7 +71,7 @@ nav a {
     min-height: 60px;
 
     text-decoration: none;
-    color: #000000;
+    color: #F5EFE6;
     font-weight: bold;
 
     transition: .3s;
@@ -79,7 +79,7 @@ nav a {
 
 
 nav a:hover {
-    color: #2a2929;
+    color: #F5EFE6;
     background: rgb(153, 153, 153); 
 }
 
@@ -90,7 +90,7 @@ nav a:hover {
         display: grid;
         align-items: center;
         grid-template-columns: 50px 1fr 50px;
-        background: rgba(255, 255, 255, 0.8); 
+        background: rgba(58, 26, 16, 0.8); 
     }
     
     
@@ -102,6 +102,7 @@ nav a:hover {
         display: grid;
         grid-column: 2;
         margin-left: center;
+        color: #F5EFE6;
     }
 
     #btnNav{
@@ -117,7 +118,7 @@ nav a:hover {
         top: 100%;
         left: 0;
         width: 100%;
-        background: rgba(255, 255, 255, 0.8); 
+        background: rgba(58, 26, 16, 0.8); 
     }
 
     nav.activo {
