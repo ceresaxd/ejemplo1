@@ -6,15 +6,15 @@ header {
     left: 0;
     width: 100%;
     z-index: 1000;
-    background: rgba(58, 26, 16, 0.8); 
+    background: rgba(37, 9, 2, 0.8); 
     transition: 0.3s;
     opacity: 1;
 }
 
 header.hero-color {
-    background: rgb(58, 26, 16); 
+    background: #250902; 
     nav{
-        background: rgb(58, 26, 16);
+        background: #250902;
         
     }
 }
