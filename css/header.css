@@ -6,7 +6,7 @@ header {
     left: 0;
     width: 100%;
     z-index: 1000;
-    background: rgba(37, 9, 2, 0.8); 
+    background: rgba(37, 9, 2, 0.4); 
     transition: 0.3s;
     opacity: 1;
 }
