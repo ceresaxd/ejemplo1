@@ -196,11 +196,10 @@ body {
 }
 @font-face {
     font-family: 'GreatVibes';
-    src: url(/resources/fonts/GreatVibes-Regular.ttf);
-
-    
+    src: url('../resources/fonts/GreatVibes-Regular.ttf');
 }
+
 @font-face {
     font-family: 'DancingScript';
-    src: url(/resources/fonts/DancingScript-VariableFont_wght.ttf);
+    src: url('../resources/fonts/DancingScript-VariableFont_wght.ttf');
 }
