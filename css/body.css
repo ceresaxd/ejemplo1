@@ -153,6 +153,7 @@ body {
   color: inherit;        
   text-decoration: none; 
 }
+
 @media (max-width: 700px) {
 
     html {
@@ -190,7 +191,7 @@ body {
     .hero-col-left img,
     .hero-col-center img,
     .hero-col-right img {
-        height: 320px;
+        height: 400px;
         width: 100%;
     }
 }
