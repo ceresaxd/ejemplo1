@@ -140,17 +140,14 @@ body {
     line-height: 1.7;
     text-align: justify;
     margin: 0;
-    font-family: none;
 }
 
 .hero h3 {
-    text-decoration: none;
     font-size: 0.85rem;
     grid-column: 3;
     padding-top: 2%;
     text-align: right;
     font-weight: normal;
-    font-family: none;
 }
 .hero h3 a {
   color: inherit;        
