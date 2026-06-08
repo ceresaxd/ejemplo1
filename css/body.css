@@ -1,4 +1,5 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,400&family=Cormorant+Garamond:wght@300;400&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -9,6 +10,7 @@
 html {
     scroll-behavior: smooth;
     overscroll-behavior: none;
+    font-family: 'Playfair Display', serif;
 }
 
 /*body*/
@@ -41,9 +43,10 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 10;
-    font-family: 'GreatVibes';
+    
+    font-style: italic;
     color: #F5EFE6;
-    font-size: 3rem;
+    font-size:  2.8rem;
     text-align: center;
     width: 80%;
 }
@@ -55,18 +58,18 @@ body {
     border-top: 1px solid #F5EFE6;
     border-bottom: 1px solid#F5EFE6;
     color: #F5EFE6;
-    font-family: 'DancingScript';
+    font-style: italic;
 }
 
 .hero h1 {
     padding-top: 5%;
     font-size: 30px;
-    font-family: none;
+    font-size:  2.8rem;
 }
 
 .hero h2 {
     padding-top: 3%;
-    font-size: 20px;
+    font-size: 0.85rem;
     font-weight: normal;
     text-align: center;
     max-width: 900px;
@@ -118,7 +121,7 @@ body {
 }
 
 .hero-col-left img {
-    height: 320px;
+    height: 356px;
     width: 100%;
 }
 
@@ -128,12 +131,12 @@ body {
 }
 
 .hero-col-right img {
-    height: 320px;
+    height: 352px;
     width: 100%;
 }
 
 .hero p {
-    font-size: 14px;
+    font-size: 0.72rem;
     line-height: 1.7;
     text-align: justify;
     margin: 0;
@@ -142,7 +145,7 @@ body {
 
 .hero h3 {
     text-decoration: none;
-    font-size: 16px;
+    font-size: 0.85rem;
     grid-column: 3;
     padding-top: 2%;
     text-align: right;
@@ -195,13 +198,4 @@ body {
         height: 400px;
         width: 100%;
     }
-}
-@font-face {
-    font-family: 'GreatVibes';
-    src: url('../resources/fonts/GreatVibes-Regular.ttf');
-}
-
-@font-face {
-    font-family: 'DancingScript';
-    src: url('../resources/fonts/DancingScript-VariableFont_wght.ttf');
 }

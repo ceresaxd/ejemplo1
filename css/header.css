@@ -24,6 +24,7 @@ header h1 {
     color: #F5EFE6;
     margin-top: 10px;
     margin-bottom: 1rem;
+    font-style: italic;
 }
 .logo {
     cursor: pointer;
@@ -80,7 +81,7 @@ nav a {
 
 nav a:hover {
     color: #F5EFE6;
-    background: #38040E; 
+    background: rgba(50, 10, 6, 0.8); 
 }
 
 /*media querys*/
@@ -102,6 +103,7 @@ nav a:hover {
         display: grid;
         grid-column: 2;
         margin-left: center;
+        font-style: italic;
         color: #F5EFE6;
     }
 
