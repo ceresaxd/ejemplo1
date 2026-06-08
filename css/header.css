@@ -9,6 +9,7 @@ header {
     background: rgba(37, 9, 2, 0.4); 
     transition: 0.3s;
     opacity: 1;
+    font-family: 'Playfair Display', serif;
 }
 
 header.hero-color {
