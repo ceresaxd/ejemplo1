@@ -164,7 +164,10 @@ body {
     html {
         overscroll-behavior: auto;
     }
-
+    .home img{
+        width: 700px;
+        height: 100%;
+    }
     .hero-grid {
         grid-template-columns: 1fr;
         padding: 1rem;
@@ -186,6 +189,8 @@ body {
         grid-column: 1;
         grid-row: auto;
     }
+
+    
 
     .hero h3 {
         grid-column: 1;
