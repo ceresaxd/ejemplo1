@@ -11,7 +11,8 @@ window.addEventListener("scroll", () => {
         header.classList.remove("hero-color");
     }
 });
-//logo
+
+//clic logo
 const logos = document.querySelectorAll(".logo");
 const home = document.querySelector(".home");
 
@@ -22,8 +23,8 @@ logos.forEach(logo => {
         });
     });
 });
-//boton Nav
 
+//boton Nav
 const btnNav = document.getElementById("btnNav");
 const menu = document.getElementById("navMenu");
 
