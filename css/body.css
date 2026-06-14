@@ -218,7 +218,6 @@ body {
     #home {
         align-items: center;
         grid-template-columns: 1fr;
-        padding: 6rem 2rem 3rem;
         text-align: center;
         
     }
